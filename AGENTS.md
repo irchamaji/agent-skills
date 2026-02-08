@@ -3,6 +3,7 @@
 This instructions file outlines the development, UI theme specification, deployment, and architecture of the current project.
 
 ## Before Implementing the User Intent
+- Create a `IMPLEMENTATION.md` file in the root directory if it does not exist.
 - Always check the `IMPLEMENTATION.md` file for current implementation status or to give understanding about the codebase.
 - Always follow the project specification written on `IMPLEMENTATION.md`.
 
