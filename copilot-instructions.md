@@ -14,3 +14,7 @@ applyTo: "**"
 - Use try/catch blocks for async operations
 - Implement proper error boundaries in React components
 - Always log errors with contextual information
+
+## Operation
+- Always use `bun` instead of `npm`
+- Check the available skills at `.github/skills/` and apply the relevant ones to your code changes
