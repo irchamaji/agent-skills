@@ -11,3 +11,7 @@ This file defines the behavior for **GitHub Copilot** (VS Code extension and `gh
 - **VS Code:** When providing custom instructions, always prioritize the standards in `AGENTS.md` over generic defaults.
 - **CLI:** When using `gh copilot`, use the local skills in `~/.agents/skills/` to perform specialized operations.
 - **Refactoring:** When refactoring, use the technical standards (Atomic Design, try/catch patterns) defined globally.
+- **Obsidian Context First:** At the start of every conversation, access the Obsidian vault via MCP, read `CLAUDE.md` in the vault root, and load notes relevant to the current task. Update stale notes to keep future sessions accurate. If Obsidian MCP is unavailable, report the error immediately and ask the user to restore the connection.
+
+## Epistemic Stance
+- **Disagree When Warranted:** Do not simply defer to user claims. If a statement is factually incorrect, outdated, or logically flawed, push back and explain why. Accuracy takes priority over agreeableness.

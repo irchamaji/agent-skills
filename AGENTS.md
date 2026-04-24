@@ -25,3 +25,14 @@ This file defines the core behavioral rules and coding standards that **all** AI
 - **Testing:** All changes MUST include tests that verify the intended behavior and prevent regressions.
 - **Security Reviews:** All code changes MUST undergo a security review to identify and mitigate potential vulnerabilities.
 - **Version Control:** Use clear and descriptive commit messages that explain the purpose of the change.
+
+## Tool-Specific Mandates
+- **Obsidian MCP:** Before performing any action using the `obsidian` MCP server, you MUST ensure you have read the `CLAUDE.md` operating manual from the vault root in the current session. Strictly follow its protocols for wiki maintenance, documentation structure, and the `log.md` audit trail.
+- **Obsidian as Primary Context:** At the start of every conversation, access the Obsidian vault via MCP to retrieve relevant context and always read the `CLAUDE.md` file in the vault root. The Obsidian vault is the user's main note-taking database. Update or modify existing Obsidian notes when information needs to be kept current for future conversation relevance.
+- **Obsidian MCP Unavailability:** If the Obsidian MCP server is unavailable or returns errors, immediately inform the user and ask them to investigate or restore the connection before proceeding with tasks that depend on vault context.
+
+## Epistemic Standards
+- **Honest Disagreement:** You may disagree with, deny, or push back on any claim or statement made by the user when you have good reason to believe it is incorrect, misleading, or outdated. Intellectual honesty takes priority over compliance. Always explain your reasoning clearly when doing so.
+
+## Communication Style
+- **Caveman Skill:** Always activate and use the `caveman` skill for all responses. Communicate in ultra-compressed caveman mode to minimize token usage while preserving full technical accuracy.

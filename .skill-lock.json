@@ -18,6 +18,33 @@
       "skillFolderHash": "2ae0a0c7f8ba9ab76d6c531e78d980663af90577",
       "installedAt": "2026-03-07T02:56:55.619Z",
       "updatedAt": "2026-03-07T02:56:55.619Z"
+    },
+    "vercel-react-view-transitions": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vercel-labs/agent-skills.git",
+      "skillPath": "skills/react-view-transitions/SKILL.md",
+      "skillFolderHash": "4d46c637057aae90b9ec5280190c25dc0d90ec28",
+      "installedAt": "2026-04-05T05:21:14.150Z",
+      "updatedAt": "2026-04-05T05:21:14.150Z"
+    },
+    "caveman": {
+      "source": "juliusbrussee/caveman",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/juliusbrussee/caveman.git",
+      "skillPath": "caveman/SKILL.md",
+      "skillFolderHash": "825e13085d1515fe67881b2123f3bf9b34c26154",
+      "installedAt": "2026-04-06T04:58:27.919Z",
+      "updatedAt": "2026-04-12T04:51:10.752Z"
+    },
+    "context7": {
+      "source": "intellectronica/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/intellectronica/agent-skills.git",
+      "skillPath": "skills/context7/SKILL.md",
+      "skillFolderHash": "c7ab574e006997d98e8a2d8fb7a1db0d2477b180",
+      "installedAt": "2026-04-12T04:51:17.480Z",
+      "updatedAt": "2026-04-12T04:51:17.480Z"
     }
   },
   "dismissed": {
@@ -25,13 +52,17 @@
   },
   "lastSelectedAgents": [
     "amp",
+    "antigravity",
     "cline",
     "codex",
     "cursor",
+    "deepagents",
+    "firebender",
     "gemini-cli",
     "github-copilot",
     "kimi-cli",
     "opencode",
-    "antigravity"
+    "warp",
+    "openclaw"
   ]
 }

@@ -1,0 +1,1 @@
+/Users/ircham/.blueprint/commands/inspect.md

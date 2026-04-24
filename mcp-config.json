@@ -1,27 +1,13 @@
 {
-  "mcpServers": {
-    "filesystem": {
-      "command": "bunx",
-      "args": [
-        "-y",
-        "@modelcontextprotocol/server-filesystem",
-        "/Users/ircham/.agents",
-        "/Users/ircham/"
-      ]
-    },
-    "agent-skills": {
-      "command": "bunx",
-      "args": [
-        "-y",
-        "@google/gemini-cli-mcp-server",
-        "--skills-path",
-        "/Users/ircham/.agents/skills"
-      ]
-    }
-  },
   "preferences": {
+    "quickEntryShortcut": "double-tap-option",
+    "coworkScheduledTasksEnabled": true,
+    "ccdScheduledTasksEnabled": true,
+    "sidebarMode": "chat",
     "coworkWebSearchEnabled": true,
-    "coworkScheduledTasksEnabled": false,
-    "ccdScheduledTasksEnabled": false
+    "menuBarEnabled": false,
+    "coworkOnboardingResumeStep": null,
+    "keepAwakeEnabled": true,
+    "chicagoEnabled": true
   }
 }
